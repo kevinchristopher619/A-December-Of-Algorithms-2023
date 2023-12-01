@@ -1,0 +1,10 @@
+num=int(input("enter no of p: "))
+run=[]
+sum=0
+for i in range(0,num):
+    n=int(input("enter run : "))
+    run.append(n)
+    sum+=run[i]
+print(sum)
+print(run.index(max(run)))
+
